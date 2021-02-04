@@ -48,9 +48,13 @@ div#wrap {
 #main div#slideshow {
     width: 3600px;
     height: 300px;
-    border: 4px solid #08f;
+    border: 1px solid #08f;
     position: relative;
-    overflow: hidden;
+    left: 0;
+    transition: all 3s;
+}
+#main div#slideshow:hover {
+    left: -1200px;
 }
 
 #main div#slideshow>ul>li {
